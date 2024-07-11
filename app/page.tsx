@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex h-screen max-h-screen">
+    <div className="flex h-screen max-h-screen bg-black text-white ">
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           <Image
@@ -22,6 +22,7 @@ export default function Home() {
             <p className="justify-items-end text-dark-600 xl:text-left">
               © 2024 CarePluse
             </p>
+            ``
             <Link href="/?admin=true" className="text-green-500">
               Admin
             </Link>
